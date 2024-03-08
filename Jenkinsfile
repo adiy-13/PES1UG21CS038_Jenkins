@@ -12,7 +12,7 @@ pipeline{
             steps{
                 sh './output'
             }
-        
+        }
         stage('deploy'){
             steps{
                 echo 'deploy'
